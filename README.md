@@ -19,7 +19,7 @@ The predict.py script loads a checkpoint, accepts an image and returns the predi
 
 ### Building and using the model
 
-####Train.py
+###Train.py
 
 ```Required inputs: 	
 - data_dir  (filepath of data to train model)
@@ -31,7 +31,7 @@ The predict.py script loads a checkpoint, accepts an image and returns the predi
 --epochs
 --hidden_units```
 
-####Predict.py
+###Predict.py
 
 ```Required inputs: 	
 - image_file_name (file path to image to process & predict)
