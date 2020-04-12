@@ -19,28 +19,32 @@ The predict.py script loads a checkpoint, accepts an image and returns the predi
 
 ### Building and using the model
 
-###Train.py
+**Train.py**
 
 ```Required inputs: 	
 - data_dir  (filepath of data to train model)
-- gpu (T/F)```
+- gpu (T/F)
+```
 
 ```Optional inputs:
 --arch
 --learning_rate
 --epochs
---hidden_units```
+--hidden_units
+```
 
-###Predict.py
+**Predict.py**
 
 ```Required inputs: 	
 - image_file_name (file path to image to process & predict)
-- gpu (T/F)```
+- gpu (T/F)
+```
 
 ```Optional inputs:
 --checkpoint_file (model to load)
 --top_k (number of top predictions to return)
---category_mappings (json file with mappings from categories ot flower names) ```	
+--category_mappings (json file with mappings from categories ot flower names)
+ ```	
 
 
 
